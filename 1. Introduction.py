@@ -4,4 +4,8 @@ import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
 
 year = [1950, 1970, 1990, 2010]
-pop
+pop = [2.519, 3.692, 5.263, 6.972]
+plt.plot(year, pop)
+plt.xlabel('year')
+plt.ylabel('Population')
+plt.show()
