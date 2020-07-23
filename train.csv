@@ -1,3 +1,5 @@
-name,age
-park,28
-lee,90
+cars_per_cap,country,drives_right
+US,809,United States,True
+AUS,731,Australia,False
+JAP,588,Japan,False
+IN,472,India,True

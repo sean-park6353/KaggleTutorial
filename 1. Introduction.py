@@ -1,5 +1,6 @@
 
 import pandas as pd
+import numpy as np
 
-df = pd.read_csv("./train.csv")
-print(df)
+dates = pd.date_range('1/1/2000', periods=8)
+print(dates)
