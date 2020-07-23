@@ -1,6 +1,5 @@
-
 import pandas as pd
-import numpy as np
 
-dates = pd.date_range('1/1/2000', periods=8)
-print(dates)
+l_1d = [0, 1, 2]
+s = pd.Series(l_1d)
+print(s)
