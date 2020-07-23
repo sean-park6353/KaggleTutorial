@@ -5,4 +5,5 @@ import matplotlib.pyplot as plt
 
 d = {'user': 'bozo', 'pswd': 1234}
 print("123")
-print(d['user'])
+print(d['pswd'])
+print(d)
