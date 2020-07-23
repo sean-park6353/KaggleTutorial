@@ -1,5 +1,10 @@
 import pandas as pd
+import re
 
-l_1d = [0, 1, 2]
-s = pd.Series(l_1d)
-print(s)
+data = pd.read_csv(
+    "https://media.geeksforgeeks.org/wp-content/uploads/nba.csv")
+
+data.dropna(inplace=True)
+dtype_before = type(data['Salary'])
+salary_list = data["Salary"].tolist()
+print(salary_list)
