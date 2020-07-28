@@ -1,10 +1,10 @@
 import pandas as pd
 
 
-cars = pd.read_csv("./train.csv")
+l_1d = ["나는", "가수", "입니다"]
+s = pd.Series(l_1d)
+print(s)
 
-print(cars)
-print("1.=============")
-print(cars[['country', 'cars_per_cap']])
-print("2.=============")
-print(cars.iloc[[1, 2]])
+s = pd.Series(l_1d, index=["1행", "2행", "3행"])
+
+print(s)
