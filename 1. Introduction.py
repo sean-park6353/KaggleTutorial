@@ -1,10 +1,18 @@
 import pandas as pd
 
 
-l_1d = ["나는", "가수", "입니다"]
-s = pd.Series(l_1d)
-print(s)
+l_2d = [
 
-s = pd.Series(l_1d, index=["1행", "2행", "3행"])
+    ["park", "kim", "lee"],
+    ["jeesong", "minsoo", "youngpyo"]
 
-print(s)
+
+]
+
+
+df = pd.DataFrame(l_2d)
+# print(df)
+df = pd.DataFrame(l_2d,
+                  index=[1, 2],
+                  columns=[1, 2, 3])
+print(df)
