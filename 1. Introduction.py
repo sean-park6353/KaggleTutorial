@@ -9,7 +9,10 @@ l_2d = [
 
 ]
 
+l_2d_1=[
 
+[123]
+]
 df = pd.DataFrame(l_2d)
 # print(df)
 df = pd.DataFrame(l_2d,
